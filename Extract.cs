@@ -1,4 +1,9 @@
-
+/* For example:
+   string Value = "<a>SomeText</a>";
+   Extract extractStr = new Extract(Value, "<a>", "</a>");
+   Console.Write(extractStr.SeparatedValue);
+   out: SomeText
+*/
 namespace Test
 {
     class Extract
